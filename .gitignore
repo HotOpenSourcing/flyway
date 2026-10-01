@@ -11,7 +11,6 @@ __pycache__
 .classpath
 .settings
 .metadata
-.vscode/
 .gradle
 *.db
 .DS_Store
@@ -80,3 +79,4 @@ out/**
 /db-notes-docs.csv
 /resync-notes.csv
 /tmp-resync/
+config.bat

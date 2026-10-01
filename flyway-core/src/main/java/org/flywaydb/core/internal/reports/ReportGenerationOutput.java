@@ -21,14 +21,12 @@ package org.flywaydb.core.internal.reports;
 
 public class ReportGenerationOutput {
     public ReportDetails reportDetails;
-    public Exception aggregateException;
 
     public ReportGenerationOutput() {
         reportDetails = new ReportDetails();
     }
 
-    public ReportGenerationOutput(final ReportDetails reportDetails, final Exception aggregateException) {
+    public ReportGenerationOutput(final ReportDetails reportDetails) {
         this.reportDetails = reportDetails;
-        this.aggregateException = aggregateException;
     }
 }
